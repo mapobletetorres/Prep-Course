@@ -193,6 +193,7 @@ function esPositivo(numero) {
   }else{
     if (numero < 0) 
     {
+      
       return 'Es negativo';
     }
     else {
