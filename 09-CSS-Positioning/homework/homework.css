@@ -7,32 +7,180 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos {
+    display: none;
+}
+
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres {
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
-
-
+#ejercicioCuatro {
+    position:absolute;
+    top:0;
+    left:0;
+}
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco {
+    flex-direction: row-reverse;
+}
+
+/* Ejercicio 7. */
+#ejercicioSiete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    /*
+    align-self
+
+    align-self: auto;   
+    align-self: flex-start;    
+    align-self: flex-end;
+    align-self: center;
+    align-self: baseline;
+    align-self: stretch;
+
+    Valores globales
+    
+    align-self: inherit; 
+    align-self: initial;
+    align-self: unset;
+
+
+
+
+
+    
+    Alinear items
+    
+    align-items: normal;
+    align-items: stretch;
+    
+    Alineamiento posicional
+    
+    align-items no considera los valores de "left" o "right"
+    
+    Agrupa los elementos alrededor del centro
+    align-items: center; 
+
+    Agrupa los elementos desde el inicio
+    align-items: start;
+
+    Agrupa los elementos desde el final
+    align-items: end;
+
+    Agrupa los elementos flex desde el incio
+    align-items: flex-start;
+
+    Agrupa los elementos flex desde el final
+    align-items: flex-end;
+    
+    align-items: self-start;
+    align-items: self-end;
+
+    Alineamiento de Linea Base
+    
+    align-items: baseline;
+    align-items: first baseline;
+    Alineamiento de desborde (solamente para alineamiento posicional):
+    align-items: last baseline;
+    
+    align-items: safe center;
+    align-items: unsafe center;
+
+    Valores globales
+
+    align-items: inherit;
+    align-items: initial;
+    align-items: unset;
+
+    
+    
+    Content
+
+    Alinear items flex desde el comienzo
+
+    justify-content: flex-start;
+
+    Alinear items desde el final
+    
+    justify-content: flex-end;
+    
+    Alinear items en el centro
+    
+    justify-content: center;
+
+    Distribuir items uniformemente El primer item al inicio, el último al final
+    justify-content: space-between;
+
+    Distribuir items uniformemente
+    Los items tienen el mismo espacio a su alrededor
+    
+    justify-content: space-around;
+
+    Valores globales
+    
+    justify-content: inherit;
+    justify-content: initial;
+    justify-content: unset;
+
+
+    Flex Direction
+    
+    La dirección del texto se presenta en una línea
+
+    Fila:
+    flex-direction: row;
+    
+    Fila inversa:
+    flex-direction: row-reverse;
+
+    Columna:
+    flex-direction: column;
+
+    Columna inversa:
+    flex-direction: column-reverse;
+
+    Valores globales:
+    
+    flex-direction: inherit;
+    flex-direction: initial;
+    flex-direction: unset;
+
+
+    */
+    
+}
+
